@@ -1,0 +1,17 @@
+//Comment for compiler
+@import '../../_ntnx/variables';
+@import '../../_ntnx/mixins';
+html{
+  @include font;
+  background-color: $background-color-3;
+}
+body{
+  @include flex(center, flex-start, column);
+  @include size(100vh, 100%);
+  margin: 0;
+}
+
+header{
+  @include size(60px, 100%);
+  background-color: white;
+}
